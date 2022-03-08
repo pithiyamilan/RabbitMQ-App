@@ -1,4 +1,4 @@
-var amqp = require('amqplib');
+const amqp = require('amqplib');
 
 export const queueConnection = async (config: any): Promise<any | undefined> => {
     // amqp.connect(config, ((error0:any, connection:any) => {
